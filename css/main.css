@@ -37,7 +37,7 @@ img {
 }
 /* reveal them when the user focuses on them - if they are tabbing through the site */
 .skiplinks a:focus{
-  /*position:static; - using this will make the skiplinks push the other content down */
+  position:static;
   top:0;
   background:rgba(83, 30, 5, 0.541);
   color: white;
